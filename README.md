@@ -1,9 +1,11 @@
-09 - Phan tich gia ban Laptop dua trên cấu hình/
+### 📂 Cấu trúc thư mục dự án
+
+09 - Phan tich gia ban Laptop dua tren cau hinh/
 ├── README.md                 # Hướng dẫn quy trình và cách chạy chương trình
 ├── requirements.txt          # Danh sách thư viện cần cài đặt
 ├── crawl_code/               # Mã nguồn thu thập dữ liệu
 │   └── gearvn_crawl.py       
-├── raw data/                 # Thư mục chứa dữ liệu thô (Chưa qua xử lý)
+├── raw data/                 # Thư mục chứa dữ liệu thô
 │   ├── dataset_chotot_api.csv
 │   ├── dataset_phongvu_full_selenium.csv
 │   ├── gearvn_detailed_data.csv
@@ -12,9 +14,10 @@
 ├── clean data/               # Thư mục chứa dữ liệu qua các bước xử lý
 │   ├── laptop_cleaned_missing_data.csv
 │   ├── laptop_handled_outliers.csv
-│   ├── laptop_master_final_processed.csv (File dùng cho phân tích cuối)
+│   ├── laptop_master_final_processed.csv
 │   └── laptop_robust_scaled.csv
 └── notebooks/                # File Notebook phân tích chi tiết
+    └── khdl.ipynb
     └── khdl.ipynb
 
 1. Cài đặt môi trường
