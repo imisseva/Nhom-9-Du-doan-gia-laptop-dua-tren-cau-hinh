@@ -1,5 +1,6 @@
-### 📂 Cấu trúc thư mục dự án
+Cấu trúc thư mục dự án
 
+```text
 09 - Phan tich gia ban Laptop dua tren cau hinh/
 ├── README.md                 # Hướng dẫn quy trình và cách chạy chương trình
 ├── requirements.txt          # Danh sách thư viện cần cài đặt
@@ -17,7 +18,6 @@
 │   ├── laptop_master_final_processed.csv
 │   └── laptop_robust_scaled.csv
 └── notebooks/                # File Notebook phân tích chi tiết
-    └── khdl.ipynb
     └── khdl.ipynb
 
 1. Cài đặt môi trường
